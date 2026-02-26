@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/autoparts
+    username: postgres
+    password: postgres
+  data:
+    redis:
+      host: localhost
+      port: 6379
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+server:
+  port: 8080
+crawler:
+  base-url: http://localhost:9001
